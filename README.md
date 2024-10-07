@@ -8,4 +8,4 @@ Este contenido inicialmente es de caracter personal y de estudio constantey recu
     Dificultad: Beginner
     Escenario: Análisis de malware (identifcación)
 
-![image](https://github.com/jccerquera/LetsDef-Beg_PCAP-Analysis/blob/main/img/PCAP.JPG)
+![image](https://github.com/jccerquera/LetsDef-Beg_PCAP-Analysis/blob/main/img/PCAP.jpg)
