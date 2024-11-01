@@ -37,7 +37,7 @@ Filtro: ip.src eq 192.168.235.137 && tcp.payload contains "upload"
 
 Sobre el filtro que ya tenemos aplicado, damos clic derecho >> FOLLOW >> TCP STREAM. Ahí vemos el nombre del archivo.
 
-![image](img/3.jpg)
+![image](img/3.JPG)
 
     file
 
