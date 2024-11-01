@@ -28,7 +28,7 @@ Filtro: ip.src eq 192.168.235.137 && tcp.payload contains "upload"
 - ip.src: IP de origen del host
 - tcp.payload: Paquete TCP que contenga la palabra "upload"
 
-![image](https://github.com/jccerquera/LetsDef-Beg_PCAP-Analysis/blob/main/img/2.jpg)
+![image](img/2.JPG)
 
     192.168.1.7
 
