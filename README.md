@@ -70,4 +70,4 @@ En la misma imagen de este TCP STREAM ubicamos el nombre del directorio.
 
 # Herramientas Utilizadas | Recursos
 
-- Es importante conocer algunos filtros o flags que utiliza Wireshark. Filtros en la web oficial "https://www.wireshark.org/docs/dfref/"
+- Filtros o flags de Wireshark. Web oficial "https://www.wireshark.org/docs/dfref/"
