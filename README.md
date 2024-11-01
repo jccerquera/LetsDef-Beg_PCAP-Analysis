@@ -46,7 +46,7 @@ Sobre el filtro que ya tenemos aplicado, damos clic derecho >> FOLLOW >> TCP STR
 
 Dentro de este mismo TCP STREAM, vamos al final del paquete donde está la respuesta a la petición HTTP ubicamos el nombre Servidor Web: Apache/2.4.54
 
-![image](img/4.jpg)
+![image](img/4.JPG)
 
     Apache
 
@@ -55,7 +55,7 @@ Dentro de este mismo TCP STREAM, vamos al final del paquete donde está la respu
 
 En la misma imagen de este TCP STREAM ubicamos el nombre del directorio.
 
-![image](img/5.jpg)
+![image](img/5.JPG)
 
     uploads
 
@@ -64,7 +64,7 @@ En la misma imagen de este TCP STREAM ubicamos el nombre del directorio.
 
 
 
-![image](img/6.jpg)
+![image](img/6.JPG)
 
 
 
