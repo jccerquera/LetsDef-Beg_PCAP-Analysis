@@ -8,7 +8,7 @@ Este contenido inicialmente es de caracter personal y de estudio constantey recu
     Dificultad: Beginner
     Escenario: Análisis de archivo PCAP (Tráfico de red)
 
-![image](https://github.com/jccerquera/LetsDef-Beg_PCAP-Analysis/blob/main/img/PCAP.jpg)
+![image](img/PCAP.jpg)
 
 ### 1. ¿En la comunicación en red, ¿Cuales son las direcciones IP del emisor y del receptor?
 
@@ -16,7 +16,7 @@ Filtro: tcp.payload contains "P13"
 
 - tcp.payload: Nos ayuda a buscar información dentro de todos los paquetes TCP que contengan la palabra buscada entre las doble comillas.
 
-![image](https://github.com/jccerquera/LetsDef-Beg_PCAP-Analysis/blob/main/img/1.jpg)
+![image](img/1.jpg)
 
     192.168.235.137,192.168.235.131
 
@@ -37,7 +37,7 @@ Filtro: ip.src eq 192.168.235.137 && tcp.payload contains "upload"
 
 Sobre el filtro que ya tenemos aplicado, damos clic derecho >> FOLLOW >> TCP STREAM. Ahí vemos el nombre del archivo.
 
-![image](https://github.com/jccerquera/LetsDef-Beg_PCAP-Analysis/blob/main/img/3.jpg)
+![image](img/3.jpg)
 
     file
 
@@ -46,7 +46,7 @@ Sobre el filtro que ya tenemos aplicado, damos clic derecho >> FOLLOW >> TCP STR
 
 Dentro de este mismo TCP STREAM, vamos al final del paquete donde está la respuesta a la petición HTTP ubicamos el nombre Servidor Web: Apache/2.4.54
 
-![image](https://github.com/jccerquera/LetsDef-Beg_PCAP-Analysis/blob/main/img/4.jpg)
+![image](img/4.jpg)
 
     Apache
 
@@ -55,7 +55,7 @@ Dentro de este mismo TCP STREAM, vamos al final del paquete donde está la respu
 
 En la misma imagen de este TCP STREAM ubicamos el nombre del directorio.
 
-![image](https://github.com/jccerquera/LetsDef-Beg_PCAP-Analysis/blob/main/img/5.jpg)
+![image](img/5.jpg)
 
     uploads
 
@@ -64,7 +64,7 @@ En la misma imagen de este TCP STREAM ubicamos el nombre del directorio.
 
 
 
-![image](https://github.com/jccerquera/LetsDef-Beg_PCAP-Analysis/blob/main/img/6.jpg)
+![image](img/6.jpg)
 
 
 
