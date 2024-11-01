@@ -68,5 +68,6 @@ En la misma imagen de este TCP STREAM ubicamos el nombre del directorio.
 
 
 
-Recursos:
-- Es importante conocer algunos filtros o flags que utiliza el Wireshark. Guía de uso en el siguiente enlace "https://www.wireshark.org/docs/wsug_html_chunked/"
+# Herramientas Utilizadas | Recursos
+
+- Es importante conocer algunos filtros o flags que utiliza el Wireshark. Guía de uso en el siguiente enlace "https://www.wireshark.org/docs/dfref/"
