@@ -44,7 +44,7 @@ Sobre el filtro que ya tenemos aplicado, damos clic derecho >> FOLLOW >> TCP STR
 
 ### 4. ¿Cuál es el nombre del servidor web donde se subió el archivo?
 
-Dentro de este mismo TCP STREAM, vamos al final del paquete donde está la respuesta a la petición HTTP ubicamos el nombre Servidor Web: Apache/2.4.54
+Dentro de este mismo TCP STREAM, vamos al final del paquete donde está la respuesta a la petición HTTP y ahí ubicamos el nombre Servidor Web: Apache/2.4.54
 
 ![image](img/4.JPG)
 
@@ -62,10 +62,11 @@ En la misma imagen de este TCP STREAM ubicamos el nombre del directorio.
 
 ### 6. ¿Cuánto tardó el remitente en enviar el archivo cifrado?
 
-
+En la pantalla principal vamos a: STATISTICS >> CONVERSATION. En la pestaña IPv4, vamos a ubicar la comunicación del host P13 (192.168.235.137) y el Servidor Web (192.168.1.7), luego en la columna DURATION vemos el tiempo del envío del archivo cifrado.
 
 ![image](img/6.JPG)
 
+    0.0073
 
 
 # Herramientas Utilizadas | Recursos
